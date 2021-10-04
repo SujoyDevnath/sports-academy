@@ -3,84 +3,84 @@
         "id": 1,
         "picture": "https://st.depositphotos.com/2288675/2456/i/950/depositphotos_24562241-stock-photo-cricket-bat-and-ball.jpg",
         "title": "Cricket for beginners",
-        "price": 25,
+        "price": 30,
         "duration": "1 yr"
     },
     {
         "id": 2,
         "picture": "https://nwsport.co.uk/wp-content/uploads/2020/07/TRAINING33.jpg",
         "title": "Football short course",
-        "price": 25,
-        "duration": "1 yr"
+        "price": 30,
+        "duration": "1.2 yr"
     },
     {
         "id": 3,
         "picture": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Roger_Federer_2012_Indian_Wells.jpg",
         "title": "Tennis full course",
-        "price": 20,
-        "duration": "1 yr"
+        "price": 27,
+        "duration": "7 mth"
     },
     {
         "id": 4,
         "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Brandon_Robinson_with_Windsor_Express_2015.jpg/235px-Brandon_Robinson_with_Windsor_Express_2015.jpg",
         "title": "Best basketball course",
         "price": 23,
-        "duration": "1 yr"
+        "duration": "5 mth"
     },
     {
         "id": 5,
         "picture": "https://upload.wikimedia.org/wikipedia/commons/8/82/LindseyCarmichaelBeijing2008BronzeMedalist.jpg",
         "title": "Full archery course",
-        "price": 23,
-        "duration": "1 yr"
+        "price": 22,
+        "duration": "5 mth"
     },
     {
         "id": 6,
         "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Great_Britain_v_Australia_13_June_2015_%2818170823813%29.jpg/220px-Great_Britain_v_Australia_13_June_2015_%2818170823813%29.jpg",
         "title": "Field hockey training",
-        "price": 23,
-        "duration": "1 yr"
+        "price": 25,
+        "duration": "6 mth"
     },
     {
         "id": 7,
         "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Alex_Meyer_pitching_for_the_Los_Angeles_Angels_in_2016_%28Cropped%29.jpg/250px-Alex_Meyer_pitching_for_the_Los_Angeles_Angels_in_2016_%28Cropped%29.jpg",
         "title": "Baseball full course",
-        "price": 23,
-        "duration": "1 yr"
+        "price": 24,
+        "duration": "7mth"
     },
     {
         "id": 8,
         "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/All_Black.jpg/240px-All_Black.jpg",
         "title": "Complete golf guide",
         "price": 23,
-        "duration": "1 yr"
+        "duration": "8 mth"
     },
     {
         "id": 9,
         "picture": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Badminton-1428046.jpg",
         "title": "Advanced badminton",
-        "price": 23,
-        "duration": "1 yr"
+        "price": 25,
+        "duration": "9 mth"
     },
     {
         "id": 10,
         "picture": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Brad_Pitt_boxing.jpg",
         "title": "Professional boxing",
         "price": 23,
-        "duration": "1 yr"
+        "duration": "4 mth"
     },
     {
         "id": 11,
         "picture": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Iran_men%27s_national_kabaddi_team_13970602000432636707284535394012_98208.jpg",
         "title": "Pro kabadi course",
-        "price": 23,
-        "duration": "1 yr"
+        "price": 25,
+        "duration": "3 mth"
     },
     {
         "id": 12,
         "picture": "https://upload.wikimedia.org/wikipedia/commons/1/1a/ST_vs_Gloucester_-_Match_-_23.JPG",
         "title": "Rugby for beginners",
-        "price": 23,
-        "duration": "1 yr"
+        "price": 27,
+        "duration": "5 mth"
     }
 ]

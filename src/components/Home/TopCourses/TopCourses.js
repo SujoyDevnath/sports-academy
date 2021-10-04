@@ -1,25 +1,22 @@
 import { Card, Col, Row } from 'react-bootstrap';
-import useCourses from '../../Hooks/useCourses';
-import './Courses.css'
-const Courses = () => {
-    // getting data from hooks
+import { Link } from 'react-router-dom';
+import useCourses from '../../../Hooks/useCourses';
+
+const TopCourses = () => {
     const [courses] = useCourses();
-    console.log(courses);
+    const filteredCourses = courses.filter(course => course.id <= 4)
     return (
-        <div>
-            <h1 className="fw-bold pt-5">Our courses</h1>
-            <Row xs={1} md={4} className="g-4 container mx-auto py-5">
+        <div className="container">
+            <h1 className="py-5 fw-bold">Top Courses</h1>
+            <Row xs={1} md={4} className="g-4">
                 {
-                    courses.map(course => {
-                        // destructuring course object
-                        const { picture, title, duration, price, id } = course;
+                    filteredCourses.map(fCourse => {
+                        const { picture, title, duration, price, id } = fCourse;
                         return (<Col key={id}>
                             <Card className="card">
-                                {/* card-img container */}
                                 <div className="img-container">
                                     <Card.Img variant="top" src={picture} className='image' />
                                 </div>
-                                {/* card-body*/}
                                 <Card.Body>
                                     <h4 className="text-start">{title}</h4>
                                     <div className="d-flex justify-content-between align-items-center mb-2">
@@ -32,8 +29,9 @@ const Courses = () => {
                     })
                 }
             </Row>
+            <Link to="/courses"><button className="btn btn-success my-5 px-3 fw-bold">See more</button></Link>
         </div>
     );
 };
 
-export default Courses;
+export default TopCourses;

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
@@ -7,6 +6,7 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import NotFound from './components/NotFound/NotFound';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -33,6 +33,7 @@ function App() {
             <NotFound></NotFound>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );

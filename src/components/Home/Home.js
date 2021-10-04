@@ -1,9 +1,13 @@
 import React from 'react';
+import './Home.css'
+import Slider from './Slider/Slider';
+import TopCourses from './TopCourses/TopCourses';
 
 const Home = () => {
     return (
-        <div>
-            <h1>This is Home section</h1>
+        <div className="pb-5">
+            <Slider></Slider>
+            <TopCourses></TopCourses>
         </div>
     );
 };
