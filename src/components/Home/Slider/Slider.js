@@ -7,7 +7,7 @@ const Slider = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100 img-style"
-                    src="https://images.unsplash.com/photo-1559579313-021b6ec9f6d6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3RhZGl1bXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+                    src="./images/carousel-img-1.jpeg"
                     alt="First slide"
                 />
                 <Carousel.Caption>
@@ -18,7 +18,7 @@ const Slider = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100 img-style"
-                    src="https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/321700/321733.6.jpg"
+                    src="./images/carousel-img-2.jpeg"
                     alt="Second slide"
                 />
 
@@ -30,7 +30,7 @@ const Slider = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100 img-style"
-                    src="https://www.cricketbetindia.com/wp-content/uploads/2020/07/Buttler-Stokes-football-min.jpg"
+                    src="./images/carousel-img-3.jpeg"
                     alt="Third slide"
                 />
 

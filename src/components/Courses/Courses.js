@@ -1,10 +1,9 @@
 import { Card, Col, Row } from 'react-bootstrap';
 import useCourses from '../../Hooks/useCourses';
-import './Courses.css'
+import './Courses.css';
 const Courses = () => {
     // getting data from hooks
     const [courses] = useCourses();
-    console.log(courses);
     return (
         <div>
             <h1 className="fw-bold pt-5">Our courses</h1>
