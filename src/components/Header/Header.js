@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div>
+        <div style={{ fontFamily: "Verdana, Geneva, Tahoma, sans-serif" }}>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand style={{ color: '#4EC743', fontWeight: 'bold', fontSize: '25px' }}>Sports academy</Navbar.Brand>
+                    <Navbar.Brand as={Link} to={'/home'} style={{ color: '#4EC743', fontWeight: 'bold', fontSize: '25px', cursor: "pointer" }}>Sports academy</Navbar.Brand>
                     <Nav className="ms-auto">
                         <Nav.Link as={Link} to={'/home'}>Home</Nav.Link>
                         <Nav.Link as={Link} to={'/courses'}>Courses</Nav.Link>
